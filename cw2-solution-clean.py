@@ -1,3 +1,7 @@
+# References:
+# Elia, M. (2019). Hill Cipher. GitHub repository. Retrieved from https://github.com/elia-mercatanti/hill-cipher
+
+
 import math
 import json
 import enchant
@@ -5,7 +9,7 @@ import numpy as np
 from sympy import Matrix
 
 # read input JSON data
-input_file = open(r'C:\Users\APM Z\Desktop\ComSec CW2\180405646.json')
+input_file = open(r'')
 jsondata = json.load(input_file)
 input_file.close()
 name = jsondata["name"]
@@ -205,7 +209,7 @@ def main():
 
     # answer = json.dumps(data)
 
-    # with open('AuntPyoneMaung_180405646_CO3326cw2.json', 'w') as jsonoutput:
+    # with open('.json', 'w') as jsonoutput:
     #     jsonoutput.write(answer)
 
 
